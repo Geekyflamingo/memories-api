@@ -35,6 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # use Fabricators instead of Fixtures
 gem 'fabrication'
 
+# use AMS for API endpoints
+gem 'active_model_serializers', '~> 0.8.3'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
