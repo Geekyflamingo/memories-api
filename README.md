@@ -25,6 +25,6 @@ Note: If vagrant up does not finish completely (green) there are a couple things
 1. Install dependencies: `bundle install`
 1. Create the database: `rake db:setup`
 1. Run migrations: `rake db:migrate`
-1. Boot up the Rails server: `rails server`
+1. Boot up the Rails server: `rails server -b 0.0.0.0`
 
 The app will now be accessible at http://localhost:3000.
