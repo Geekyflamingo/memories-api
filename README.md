@@ -1,7 +1,7 @@
 # Memories API
 
 Memories API is a Rails app used for technical interviews at Parent Co. &
-Notabli. Work done on this codebase will not be used or releaed. This is
+Notabli. Work done on this codebase will not be used or released. This is
 specifically for understanding how one approaches development and their skill
 level.
 
