@@ -7,4 +7,18 @@ class MomentTest < ActiveSupport::TestCase
 
     assert_not moment.save
   end
+
+  test 'should not save a moment without a location' do
+    moment = Fabricate(:moment)
+    moment.location = nil
+
+    assert_not moment.save
+  end
+
+  test 'should not save a moment without content' do
+    moment = Fabricate(:moment)
+    moment.content = nil
+
+    assert_not moment.save
+  end
 end
